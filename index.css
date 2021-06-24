@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    padding: 50px 0px;
+}
+.logo{
+    padding-right: 190px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 10px 30px;
+}
+
+.hero{
+	width: 100%;
+	height: 600px;
+	background-image: url(img/osan.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+    position: relative;
+}
+.bg {
+	width: 40%;
+	text-align: left;
+}
+.bg span {
+	color: skyblue;
+}
+.bg h1 {
+	font-size: 45px;
+}
+.bg p {
+	font-size: 15px;
+	color: gray;
+	line-height: 19px;
+	padding: 8px 0px;
+}
+
+.flo {
+	position: absolute;
+	top: 107px;
+	right: -160px;
+	transform: rotate(90deg);
+	color: gray;
+}
+p{
+    color: gray;
+}
+
+.con{
+    width: 60%;
+   margin: 50px auto;
+   text-align: center
+}
+.con h1{
+    font-weight: 600;
+    padding: 20px 0px;
+}
+hr{
+    width: 100px;
+    margin: 30px auto;
+    transform: rotate(90deg);
+    color:skyblue;
+}
+
+.tp{
+    margin: 100px 0px;
+    position: relative;
+}
+.cont{
+    padding: 30px 20px;
+}
+ .btn{
+    padding: 40px 0px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid skyblue;
+    display: inline-block;
+    letter-spacing: 5px;
+}
+.vid img{
+    max-width: 100%;
+    padding-top: 110px;
+}
+.rel{
+    position: relative;
+}
+.cn{
+    padding: 90px 0px;
+    position: relative;
+}
+
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ima{
+    background-color: #E8E8E9;
+    height: 300px;
+}
+.ima img{
+    margin-top: -200px;
+}
+.conta{
+    margin-left: -40px;
+}
+.conta span{
+    line-height: 50px;
+    text-align: center !important;
+}
+.conta h2{
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+.conta h4{
+    padding: 10px 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: tomato;
+}
+.cen{
+    text-align: center !important;
+    display: block;
+    margin-top: -10px;
+}
+.cn2{
+    padding: 90px;
+    text-align: center;
+}
+.cnter {
+	width: 150px;
+	margin: 20px auto;
+	display: block;
+}
+.bg-cont h1{
+    font-size: 120px;
+    color: #eeeeee;
+}
+.bg-cont h2{
+    font-size: 30px;
+    margin-top: -45px;
+    padding-bottom: 10px;
+}
+
+.cn9{
+    text-align: center;
+}
+.news {
+	margin: 0px auto;
+	text-align: center;
+    margin-bottom: 60px;
+}
+.news input{
+    width: 50%;
+    padding: 15px;
+    border: none;
+    background-color: #F5F5F5;
+}
+.news span{
+    font-size: 15px;
+    padding: 14px 20px;
+    margin-left: -10px;
+    background-color: skyblue;
+}
+
+.sm img{
+    max-width: 100%;
+}
+.bg-conte2{
+    padding-left: 20px;
+}
+.bg-conte2 h2{
+    padding: 30px 40px;
+    line-height: 40px;
+    width: 80%;
+}
+.nav2{
+    padding-bottom: 30px;
+}
+.footer{
+    text-align: center;
+    margin: auto;
+}
+.footer span{
+    font-size: 30px;
+    padding: 20px 30px;
+    color: skyblue;
+}
+.flo2 {
+	position: absolute;
+	top: 32px;
+	right: -56px;
+	transform: rotate(90deg);
+	color: gray;
+}
